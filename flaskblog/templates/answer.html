@@ -1,0 +1,19 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="content-section">
+{% if answer != '' %}
+<p>Question: {{res}}</p>
+{{answer}}
+   <div class="wolframbox">
+     <div class="panel">
+       <div class="panel-heading">Powered by Wolfram|Alpha</div>
+       <div class="panel-body">
+         <a href="https://www.wolframalpha.com/input/?i={{res}}" target="_blank">Details</a>
+         {% else %}
+         No result
+         {% endif %}
+       </div>
+     </div>
+   </div>
+  </div>
+{% endblock content %}
