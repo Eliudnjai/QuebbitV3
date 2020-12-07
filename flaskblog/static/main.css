@@ -3,6 +3,10 @@ body {
   background: #fafafa;
   color: #333333;
   margin-top: 10rem;
+  background-image: url(images/pexels-игорь-альшин-2873277.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 h1, h2, h3, h4, h5, h6 {

@@ -7,7 +7,7 @@ import stripe
 
 main = Blueprint('main', __name__)
 
-with open('/etc/apiconfig.json') as config_file:
+with open('/etc/config.json') as config_file:
 	apiconfig = json.load(config_file)
 
 app = Flask(__name__)
